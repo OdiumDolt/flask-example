@@ -1,0 +1,21 @@
+
+/* in css, you can refrence the html elements through their names */
+/* this one refernces the body tag, and changes its color, height, and removes the margin */
+body{
+    background-color: rgb(43, 43, 43);
+    height: 100vh;
+    margin: 0;
+}
+/* putting a . before a reference refereces the class. This was defined as class="smelly-text" in the html file */
+.smelly-text{
+    width: fit-content;
+    margin: auto;
+    color: white;
+    user-select: none;
+}
+
+/* when the html element is hovered, these css elements will change */
+.smelly-text:hover{
+    color: black;
+    background-color: white;
+}
